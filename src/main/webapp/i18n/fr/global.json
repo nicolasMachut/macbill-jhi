@@ -9,6 +9,7 @@
                 "main": "Entités",
                 "address": "Address",
                 "customer": "Customer",
+                "workDay": "Work Day",
                 "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
             },
             "account": {

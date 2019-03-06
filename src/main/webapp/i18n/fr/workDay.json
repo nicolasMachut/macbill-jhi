@@ -1,0 +1,27 @@
+{
+    "macbillApp": {
+        "workDay": {
+            "home": {
+                "title": "WorkDays",
+                "createLabel": "Créer un nouveau Work Day",
+                "createOrEditLabel": "Créer ou éditer un Work Day"
+            },
+            "created": "Un nouveau Work Day a été créé avec l'identifiant {{ param }}",
+            "updated": "Le Work Day avec l'identifiant {{ param }} a été mis à jour",
+            "deleted": "Le Work Day avec l'identifiant {{ param }} a été supprimé",
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le Work Day {{ id }} ?"
+            },
+            "detail": {
+                "title": "Work Day"
+            },
+            "allDay": "All Day",
+            "draggable": "Draggable",
+            "end": "End",
+            "start": "Start",
+            "title": "Title",
+            "user": "User",
+            "customer": "Customer"
+        }
+    }
+}

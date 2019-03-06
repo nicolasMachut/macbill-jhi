@@ -1,0 +1,53 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <div *ngIf="workDay">
+            <h2><span jhiTranslate="macbillApp.workDay.detail.title">Work Day</span> {{workDay.id}}</h2>
+            <hr>
+            <jhi-alert-error></jhi-alert-error>
+            <dl class="row-md jh-entity-details">
+                <dt><span jhiTranslate="macbillApp.workDay.allDay">All Day</span></dt>
+                <dd>
+                    <span>{{workDay.allDay}}</span>
+                </dd>
+                <dt><span jhiTranslate="macbillApp.workDay.draggable">Draggable</span></dt>
+                <dd>
+                    <span>{{workDay.draggable}}</span>
+                </dd>
+                <dt><span jhiTranslate="macbillApp.workDay.end">End</span></dt>
+                <dd>
+                    <span>{{workDay.end}}</span>
+                </dd>
+                <dt><span jhiTranslate="macbillApp.workDay.start">Start</span></dt>
+                <dd>
+                    <span>{{workDay.start}}</span>
+                </dd>
+                <dt><span jhiTranslate="macbillApp.workDay.title">Title</span></dt>
+                <dd>
+                    <span>{{workDay.title}}</span>
+                </dd>
+                <dt><span jhiTranslate="macbillApp.workDay.user">User</span></dt>
+                <dd>
+                    {{workDay.userLogin}}
+                </dd>
+                <dt><span jhiTranslate="macbillApp.workDay.customer">Customer</span></dt>
+                <dd>
+                    <div *ngIf="workDay.customerId">
+                        <a [routerLink]="['/customer', workDay.customerId, 'view']">{{workDay.customerId}}</a>
+                    </div>
+                </dd>
+            </dl>
+
+            <button type="submit"
+                    (click)="previousState()"
+                    class="btn btn-info">
+                <fa-icon [icon]="'arrow-left'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.back"> Back</span>
+            </button>
+
+            <button type="button"
+                    [routerLink]="['/work-day', workDay.id, 'edit']"
+                    class="btn btn-primary">
+                <fa-icon [icon]="'pencil-alt'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.edit"> Edit</span>
+            </button>
+        </div>
+    </div>
+</div>

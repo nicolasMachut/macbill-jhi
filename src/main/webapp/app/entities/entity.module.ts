@@ -11,6 +11,10 @@ import { RouterModule } from '@angular/router';
             {
                 path: 'customer',
                 loadChildren: './customer/customer.module#MacbillCustomerModule'
+            },
+            {
+                path: 'work-day',
+                loadChildren: './work-day/work-day.module#MacbillWorkDayModule'
             }
             /* jhipster-needle-add-entity-route - JHipster will add entity modules routes here */
         ])
