@@ -1,0 +1,38 @@
+{
+    "generator-jhipster": {
+        "promptValues": {
+            "packageName": "fr.nicolasmachut",
+            "nativeLanguage": "fr"
+        },
+        "jhipsterVersion": "5.8.1",
+        "applicationType": "monolith",
+        "baseName": "macbill",
+        "packageName": "fr.nicolasmachut",
+        "packageFolder": "fr/nicolasmachut",
+        "serverPort": "8080",
+        "authenticationType": "jwt",
+        "cacheProvider": "ehcache",
+        "enableHibernateCache": true,
+        "websocket": false,
+        "databaseType": "sql",
+        "devDatabaseType": "postgresql",
+        "prodDatabaseType": "postgresql",
+        "searchEngine": false,
+        "messageBroker": false,
+        "serviceDiscoveryType": false,
+        "buildTool": "maven",
+        "enableSwaggerCodegen": false,
+        "jwtSecretKey": "MzczY2I5YzVmNjlhNzcwYjUyZDUxYmI4NGM0Y2Y3YjI5YTg3OWM3MmFiMjA2ZDYwZGM3MjBlOGFiNzg1YWJmYjA0NWQzN2QyYzUzODA4YTYwYzQ2OTA4OWM2M2MyYTZkMmUyOThjM2I0ODU5NDcxN2UyMDBkYjM2NDFhYWFlNDM=",
+        "clientFramework": "angularX",
+        "useSass": false,
+        "clientPackageManager": "npm",
+        "testFrameworks": [],
+        "jhiPrefix": "jhi",
+        "entitySuffix": "",
+        "dtoSuffix": "DTO",
+        "otherModules": [],
+        "enableTranslation": true,
+        "nativeLanguage": "fr",
+        "languages": ["fr", "en"]
+    }
+}
